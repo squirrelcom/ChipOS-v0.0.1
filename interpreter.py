@@ -23,7 +23,7 @@ def main():
         """)
 
     from colorama import Fore, Back, Style
-    print(Back.WHITE)
+    print(Back.BLUE)
     print(Fore.MAGENTA + (banner))
     print(Fore.BLACK)
 

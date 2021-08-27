@@ -23,8 +23,7 @@ def main():
         """)
 
     from colorama import Fore, Back, Style
-    print(Back.BLUE)
-    print(Fore.MAGENTA + (banner))
+    print(Fore.BLUE + (banner))
     print(Fore.BLACK)
 
     lexer = Lexer()

@@ -1,4 +1,3 @@
-from colorama import init
 from basictoken import BASICToken as Token
 from lexer import Lexer
 from program import Program
